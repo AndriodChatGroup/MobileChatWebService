@@ -45,7 +45,7 @@ function openSocket() {
     }
 
     // Create a new instance of the websocket
-    webSocket = new WebSocket("ws://" + socket_url + ":" + port + "/chat?name=" + name);
+    webSocket = new WebSocket("ws://" + socket_url + ":" + port + "/MobileChatWebService/chat?name=" + name);
 
     /**
      * Binds function to the listeners for the websocket.
